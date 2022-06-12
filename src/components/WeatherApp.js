@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import WeatherItem from './WeatherItem';
 import WeatherSearch from './WeatherSearch';
-import cityname from '../AA/city.list.json'
+import cityname from '../assets/api/city.list.json'
 
 
 const WeatherApp = () => {

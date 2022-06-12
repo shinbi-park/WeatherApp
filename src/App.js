@@ -1,8 +1,8 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom';
-import WeatherApp from './sample/Weather/WeatherApp';
-import WeatherInfo from './sample/Weather/WeatherInfo';
 import { Container } from 'react-bootstrap';
+import WeatherApp from './components/WeatherApp';
+import WeatherInfo from './components/WeatherInfo';
 
 
 const App = () => {
@@ -14,9 +14,6 @@ const App = () => {
         <Route path=':id' element={<WeatherInfo/>}/>
          </Routes>
 
-        {/* <Test6 /> */}
-        {/* <Gallerycopy/> */}
-        {/* {<WhetherApp/>} */}
         </Container>
     </div>
   );

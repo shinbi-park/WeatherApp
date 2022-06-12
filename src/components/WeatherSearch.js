@@ -1,14 +1,7 @@
 import React, { useState } from 'react';
 import { Form } from 'react-bootstrap';
-import styled from 'styled-components';
-
-// const ImageForm = styled.label`
-// padding:25px 0; display:block;
-// text-align: center;
-// color:navy;
 
 
-// `
 
 
 const WhetherSearch = ({onSearch}) => {
