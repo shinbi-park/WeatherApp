@@ -14,7 +14,6 @@ const WeatherInfo = () => {
 
   useEffect(() => {
     const API_KEY = process.env.REACT_APP_API_KEY;
-    console.log(API_KEY);
     const url = `https://api.openweathermap.org/data/2.5/weather?id=${id}&appid=${API_KEY}`;
 
     axios.get(url).then((res) => {
